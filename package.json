@@ -2,21 +2,22 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "mind game",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/al-burtsev/frontend-project-44#readme",
+  "bugs": {
+    "url": "https://github.com/al-burtsev/frontend-project-44/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/al-burtsev/frontend-project-44.git"
   },
-  "keywords": [
-    "js"
-  ],
-  "author": "al-burtsev",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/al-burtsev/frontend-project-44/issues"
+  "author": "al-burtsev",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
   },
-  "homepage": "https://github.com/al-burtsev/frontend-project-44#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
